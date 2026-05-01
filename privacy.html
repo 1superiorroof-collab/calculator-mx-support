@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Calculator MX Privacy Policy</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
   <style>
     :root {
       color-scheme: light;
@@ -53,6 +55,20 @@
       font-weight: 700;
       letter-spacing: 0;
       text-transform: uppercase;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin: 0.5rem 0 0;
+    }
+
+    .app-icon {
+      width: clamp(3rem, 12vw, 4.25rem);
+      height: clamp(3rem, 12vw, 4.25rem);
+      border-radius: 22%;
+      box-shadow: 0 10px 25px rgba(15, 118, 110, 0.2);
     }
 
     h1 {
@@ -110,6 +126,11 @@
         width: min(100% - 1rem, 760px);
         padding: 1rem 0;
       }
+
+      .brand {
+        align-items: flex-start;
+        flex-direction: column;
+      }
     }
   </style>
 </head>
@@ -117,7 +138,10 @@
   <main class="page">
     <section class="panel" aria-labelledby="privacy-title">
       <p class="eyebrow">Privacy Policy</p>
-      <h1 id="privacy-title">Calculator MX</h1>
+      <div class="brand">
+        <img class="app-icon" src="icon.svg" alt="" width="68" height="68">
+        <h1 id="privacy-title">Calculator MX</h1>
+      </div>
       <p class="lead">Privacy information for Calculator MX.</p>
 
       <div class="privacy-box">

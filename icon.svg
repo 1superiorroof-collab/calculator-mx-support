@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Calculator MX Icon</title>
+  <desc id="desc">A clean calculator icon with the letters MX.</desc>
+  <defs>
+    <linearGradient id="background" x1="72" y1="52" x2="440" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="150" y1="112" x2="362" y2="194" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#background)"/>
+  <rect x="112" y="72" width="288" height="368" rx="52" fill="#f8fafc"/>
+  <rect x="144" y="112" width="224" height="82" rx="24" fill="url(#screen)"/>
+  <path d="M184 302v-56h18l20 31 20-31h18v56h-18v-28l-15 22h-10l-15-22v28h-18Zm92 0 30-56h22l30 56h-22l-6-12h-27l-6 12h-21Zm35-28h11l-5-12-6 12Z" fill="#0f172a"/>
+  <rect x="144" y="224" width="52" height="52" rx="16" fill="#0f766e"/>
+  <rect x="230" y="224" width="52" height="52" rx="16" fill="#0f766e"/>
+  <rect x="316" y="224" width="52" height="52" rx="16" fill="#0f766e"/>
+  <rect x="144" y="322" width="52" height="52" rx="16" fill="#e2e8f0"/>
+  <rect x="230" y="322" width="52" height="52" rx="16" fill="#e2e8f0"/>
+  <rect x="316" y="322" width="52" height="52" rx="16" fill="#e2e8f0"/>
+</svg>
